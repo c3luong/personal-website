@@ -1,0 +1,33 @@
+/* Default fonts */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Karla', sans-serif;
+}
+body {
+  font-family: 'Maven Pro', sans-serif;
+}
+.homepage-container {
+  margin: 1rem 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.homepage-item-container {
+  margin: 1rem 0 1rem 0;
+}
+.portfolio-h3.md-display-3 {
+  margin: 1rem 0 1rem -0.3rem;
+  font-weight: 700;
+}
+.portfolio-b1.md-body-1 {
+  margin: 1rem 0 1rem 0;
+}
+.home-button.md-body-1 {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.md-body-2.portfolio-b2 {
+  font-weight: 900;
+}
