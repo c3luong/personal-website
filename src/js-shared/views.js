@@ -8,15 +8,14 @@
                 url: "/homepage",
                 views: {
                     navigation: {
-                        templateUrl: "./js-components/navigation/navigation.html",
+                        templateUrl: "./components/navigation.html",
                         controller: "NavigationController as navigation"
                     },
                     content: {
-                        templateUrl: "./js-components/homepage/homepage.html",
+                        templateUrl: "./components/homepage.html",
                         controller: "HomepageController as homepage"
                     }
                 }
             }
-        })
-
+        });
 }());
