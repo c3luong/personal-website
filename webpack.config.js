@@ -22,6 +22,9 @@ module.exports = {
             test: /\.less$/,
             loader: 'style!css!less'
         }, {
+            test: /\.css$/,
+            loader: 'style!css'
+        }, {
             test: /\.js$/,
             loader: 'ng-annotate!babel?presets[]=es2015!jshint',
             exclude: /node_modules|bower_components/

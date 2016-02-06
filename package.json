@@ -1,6 +1,5 @@
 {
   "name": "curtiss-website",
-
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -8,7 +7,10 @@
   },
   "description": "Curtiss's personal website",
   "main": "entry.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base public"
+  },
   "author": "Curtiss Luong",
   "license": "MIT",
   "devDependencies": {
@@ -21,25 +23,22 @@
     "css-loader": "0.23.1",
     "jshint": "2.8.0",
     "jshint-loader": "0.8.3",
-    "less":"^2.3.1",
+    "less": "^2.3.1",
     "less-loader": "2.2.2",
     "ng-annotate-loader": "0.1.0",
     "style-loader": "0.13.0",
     "webpack": "1.12.11",
     "webpack-dev-server": "1.14.1"
   },
-  "dependencies" : {
+  "dependencies": {
     "angular": "^1.4.7",
     "angular-material": "1.0.1",
     "angular-ui-router": "1.0.0-alpha0",
+    "body-parser": "~1.5.2",
     "express": "^4.13.4",
+    "method-override": "~2.1.2",
     "mongoose": "~3.6.2",
     "morgan": "~1.2.2",
-    "body-parser": "~1.5.2",
-    "method-override": "~2.1.2"
-  },
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base public"
+    "prerender-node": "^2.2.0"
   }
 }
