@@ -9,5 +9,7 @@ app.use(express.static(__dirname + '/public')); // set the static files location
 app.use(morgan('dev')); // log every request to the console
 app.use(require('prerender-node'));
 
+
+
 app.listen(80);
 console.log("App listening on port 8080");
