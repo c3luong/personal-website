@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/c3luong/personal-website.git"
+    "url": "git://github.com/c3luo.ng/personal-website.git"
   },
   "description": "Curtiss's personal website",
   "main": "entry.js",
