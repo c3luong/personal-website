@@ -1,3 +1,4 @@
+(function () {
 "use strict";
 
 // angular
@@ -13,3 +14,4 @@ require("./js-shared/views.js");
 // components
 require("./js-components/homepage.js");
 require("./js-components/navigation.js");
+}());
